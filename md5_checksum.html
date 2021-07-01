@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="MD5 online hash file checksum function">
+    <title>MD5 File Checksum Online
+    </title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.1.mincopy.js"></script>
+  </head>
+  <body>
+    <div id="body">
+      <script src="main.js"></script>
+        <div id="droppable-zone">
+          <div id="droppable-zone-wrapper">
+            <div id="droppable-zone-text">Drop File Here</div>
+          </div>
+          <input id="input" type="file" placeholder="Input" class="droppable-file">
+        </div>
+        <input id="execute" type="button" value="Hash" class="btn btn-default">
+        <label>
+          <input id="auto-update" type="checkbox" value="1" checked="checked">Auto Update
+        </label>
+        <textarea id="output" placeholder="Output"></textarea>
+      </div>
+      <script src="https://cdn.jsdelivr.net/gh/emn178/js-md5/build/md5.min.js"></script>
+      <script>method = md5;</script>
+    </div>
+    <div id="body">
+      <script src="maincopy.js"></script>
+        <div id="droppable-zone2">
+          <div id="droppable-zone-wrapper2">
+            <div id="droppable-zone-text2">Drop File Here1231232</div>
+          </div>
+          <input id="input2" type="file" placeholder="Input2312321" class="droppable-file2">
+        </div>
+        <input id="execute2" type="button" value="Hash" class="btn btn-default">
+        <label>
+          <input id="auto-update2" type="checkbox" value="1" checked="checked">Auto Update
+        </label>
+        <textarea id="output2" placeholder="Outputsadasd"></textarea>
+      </div>
+      <script src="https://cdn.jsdelivr.net/gh/emn178/js-md5/build/md5.mincopy.js"></script>
+      <script>method2 = md5;</script>
+    </div>
+  </body>
+</html>
